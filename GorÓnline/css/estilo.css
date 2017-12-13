@@ -1,0 +1,125 @@
+/*
+*
+*
+*@author Talles Ramos
+*@version 0.1
+*
+*/
+
+/*======= CONFIG PADRÕES DO NAVEGADOR ======== */
+
+body {
+	padding: 0;
+	margin: 0;
+	background: #fff;
+	text-align: center;
+}
+/*===================== Menu de navegação ======================*/
+.menu-logo {
+    height: 40px;
+    width: 132px;
+    display: block;
+    background-size: contain;
+    color: transparent;
+    font-family: 'Indie Flower', cursive;
+    float: left;
+    margin-left: 30px;
+}
+
+#navegacao {
+	padding: 15px 0px;
+	background: rgba(0, 0, 0, 0.6);
+	border: none;
+    display: inline-block;
+    width: 100%;
+}
+
+.menu-logo>a {
+	 margin: 0px;
+	 color: #fff;
+}
+
+.menu-logo>a>h1 {
+	padding:  0;
+	margin:  0;
+}
+
+.menu {
+	float: right;
+	top: 0;
+}
+
+.menu>ul {
+	padding-left: 0px;
+    padding-right: 40px;
+    margin-top: 10px;
+}
+
+.menu>ul>li>a {
+	margin: 8px;
+	color: #fff;
+	font-family: 'Indie Flower', cursive;
+}
+
+.menu>ul>li>a:hover {
+	color: #c7d4b4;	
+
+}
+
+ a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	top: 0;
+}
+
+li {
+	float: left;
+}
+
+/*===================== CONTEUDO / IMAGENS / DESCRIÇÃO / PREÇO ======================*/
+/*corpo das imgs*/
+#body-drunks {
+	display: inline-block;
+	margin:  100px auto;
+}
+
+/*produto*/
+.boxe-drunk {
+	transition: linear 0.2s;
+    float: left;
+    margin: 8px;
+    width: 350px;
+    border:  1px solid #ccc;
+}
+
+.boxe-drunk:hover {
+	transition: linear 0.2s;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/*padrões das imgs*/
+.boxe-drunk > img {
+    width: 100%;
+    float: left;
+    height: 300px;
+}
+
+/*DESCRIÇÃO*/
+.info-drunk > h4 {
+	color: #000;
+	margin-top: 15px;
+    display: inline-block;
+}
+
+/*preço*/
+.info-drunk > h1 {
+    background: #d6d6d6;
+    color: #211f1f;
+    width: 100%;
+    padding: 10px 0;
+    float: left;
+    margin: 0;
+}
