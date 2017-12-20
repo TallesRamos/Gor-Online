@@ -55,13 +55,24 @@ body {
     margin-top: 10px;
 }
 
+.menu>ul>li {
+	float: left;
+}
+
+.divisor {
+	width: 1px;
+	height: 18px;
+	background: white;
+	margin: 3px 10px;
+}
+
 .menu>ul>li>a {
 	margin: 8px;
 	color: #fff;
 	font-family: 'Indie Flower', cursive;
 }
 
-.menu>ul>li>a:hover {
+.menu>ul>li>a:hover, .conteudo>ul>li>a:hover {
 	color: #c7d4b4;	
 
 }
@@ -75,15 +86,11 @@ ul {
 	top: 0;
 }
 
-li {
-	float: left;
-}
-
 /*===================== CONTEUDO / IMAGENS / DESCRIÇÃO / PREÇO ======================*/
 /*corpo das imgs*/
 #body-drunks {
 	display: inline-block;
-	margin:  100px auto;
+	margin:  100px 0 0 127px;
 }
 
 /*produto*/
@@ -123,3 +130,41 @@ li {
     float: left;
     margin: 0;
 }
+
+/*======================= FOOTER ======================= */
+#rodape {
+	padding: 15px 0px 10px;
+	background: rgba(0, 0, 0, 0.6);
+	border: none;
+    display: inline-block;
+    width: 100%;
+    margin: 50px 0 0 0;
+}
+
+.conteudo>ul {
+	padding: 0 100px;
+	float: left;
+}
+
+.conteudo>ul>li {
+	display: table-footer-group;
+	text-align-last: left;
+	padding-left: 100px;
+}
+
+.conteudo>ul>li>a {
+	margin: 8px;
+	color: #fff;
+	font-family: 'Indie Flower', cursive;
+}
+
+#redes-sociais>ul {
+	float: right;
+	padding: 19px 100px;
+}
+
+#redes-sociais .social-midias {
+	float: right;
+	margin: 15px;
+}
+
