@@ -1,0 +1,99 @@
+#menu-navegacao>ul>li>a {
+}
+
+#logo .navbar-brand {
+	margin: 0 3rem;
+}
+
+#body-drunks .container {
+	margin: 0 auto;
+}
+
+.box-drunk>img {
+	width: 350px;
+    height: 355px;
+    float: right;
+}
+
+.card {
+	width: 20rem;
+    margin: 0 auto;
+}
+
+/* =========== CONTEUDO ============= */ 
+
+/*corpo das imgs*/
+#body-drunks {
+	display: inline-block;
+	
+}
+
+#body-drunks .container-fluid {
+	margin: 10px auto 0 auto;
+}
+/*produto*/
+.card-columns .card:hover {
+	transition: linear 0.2s;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/*padrões das imgs*/
+.card .box-drunk {
+    width: 100%;
+    float: left;
+    height: 350px;
+}
+
+/*DESCRIÇÃO*/
+.info-drunk .card-title {
+	color: #000;
+	margin-top: 14px;
+}
+
+/*preço*/
+.info-drunk > h4, h2 {
+    background: #d6d6d6;
+    color: #211f1f;
+    width: 100%;
+    padding: 10px 0;
+    float: left;
+    margin: 0;
+}
+
+/* ============== RODAPE =========== */ 
+/*BACKGROUND RODAPÉ*/
+#rodape {
+	background: #0c0d0e;
+	float: right;
+	width: 100%;
+	height: -200px;
+	display: inline-block;	
+}
+/*REMOE=VENDO ESTILO DA LIST*/
+#rodape>div>ul {
+	list-style: none;
+}
+/*ESPAÇO ENTRE AS INFOS*/
+#rodape>div>ul>li {
+	margin: 0 auto 8px auto;
+}
+/*ESTILIZAÇÃO INFORMAÇÕES*/
+#rodape>div>ul>li>a {
+	color: white;
+	text-decoration: none;
+}
+/*HOVER INFORMAÇÕES DO RODAPÉ*/
+#rodape>div>ul>li>a:hover {
+	color: #28a745;
+	transition: linear 0.2s;
+}
+
+#redes-sociais>ul {
+	float: right;
+	margin-right: 10px;
+}
+
+#redes-sociais .social-midias {
+	float: right;
+	margin: 15px;
+}
